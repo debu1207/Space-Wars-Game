@@ -10,13 +10,13 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Background
-background = pygame.image.load('Backgrounds/space.jpg')
+background = pygame.image.load('space.jpg')
 
 # Play Button
 play_button = pygame.draw.rect(screen, (0, 0, 240), (150, 90, 100, 50))
 
 # Background sound
-mixer.music.load('Sounds/background.wav')
+mixer.music.load('background.wav')
 mixer.music.play(-1)
 
 # Title and Icon
@@ -25,7 +25,7 @@ icon = pygame.image.load('spaceship.png')
 pygame.display.set_icon(icon)
 
 # player
-playerImg = pygame.image.load('Spaceships/player3.png')
+playerImg = pygame.image.load('player3.png')
 playerX = 370
 playerY = 480
 playerX_change = 0
